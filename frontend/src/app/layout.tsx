@@ -3,7 +3,7 @@ import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "LinkedIn Post Master",
+  title: "PostForge",
   description: "AI-powered LinkedIn blog and article publishing",
 };
 

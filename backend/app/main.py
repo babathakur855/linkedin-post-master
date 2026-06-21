@@ -27,7 +27,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="LinkedIn Post Master",
+    title="PostForge",
     version="1.0.0",
     lifespan=lifespan,
 )

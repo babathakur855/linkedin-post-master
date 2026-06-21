@@ -23,7 +23,7 @@ export default function Sidebar() {
           <Linkedin className="w-5 h-5 text-white" />
         </div>
         <div>
-          <p className="font-bold text-sm text-gray-900">Post Master</p>
+          <p className="font-bold text-sm text-gray-900">PostForge</p>
           <p className="text-xs text-gray-500">AI LinkedIn Publisher</p>
         </div>
       </div>

@@ -1,4 +1,4 @@
-name: LinkedIn Post Master — CI Pipeline
+name: PostForge — CI Pipeline
 
 on:
   push:
@@ -113,7 +113,7 @@ jobs:
     steps:
       - name: Write job summary
         run: |
-          echo "## LinkedIn Post Master — CI Results" >> $GITHUB_STEP_SUMMARY
+          echo "## PostForge — CI Results" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Job | Result |" >> $GITHUB_STEP_SUMMARY
           echo "|-----|--------|" >> $GITHUB_STEP_SUMMARY
